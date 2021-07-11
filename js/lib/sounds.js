@@ -56,15 +56,15 @@ function Song(sourceUrl) {
 
 Song.prototype = Object.create(MediaSource.prototype);
 
-var boo = new MediaSource("https://s3.amazonaws.com/hhero-pro/boo.mp3");
-var applause = new MediaSource("https://s3.amazonaws.com/hhero-pro/applause.mp3");
-var mistake1 = new MediaSource("https://s3.amazonaws.com/hhero-pro/mistake1.mp3");
-var mistake2 = new MediaSource("https://s3.amazonaws.com/hhero-pro/mistake2.mp3");
+var boo = new MediaSource("https://sgreenlee.github.io/bach-star/assets/mp3/boo.mp3");
+var applause = new MediaSource("https://sgreenlee.github.io/bach-star/assets/mp3/applause.mp3");
+var mistake1 = new MediaSource("https://sgreenlee.github.io/bach-star/assets/mp3/mistake1.mp3");
+var mistake2 = new MediaSource("https://sgreenlee.github.io/bach-star/assets/mp3/mistake2.mp3");
 
 var songs = {
-  bach_minuet_g_major: new Song("https://s3.amazonaws.com/hhero-pro/bach_minuet_g_major.mp3"),
-  bach_invention4_d_minor: new Song("https://s3.amazonaws.com/hhero-pro/bach_invention4_dminor.mp3"),
-  bach_goldberg_aria: new Song("https://s3.amazonaws.com/hhero-pro/bach_goldberg_aria.mp3")
+  bach_minuet_g_major: new Song("https://sgreenlee.github.io/bach-star/assets/mp3/bach_minuet_g_major.mp3"),
+  bach_invention4_d_minor: new Song("https://sgreenlee.github.io/bach-star/assets/mp3/bach_invention4_dminor.mp3"),
+  bach_goldberg_aria: new Song("https://sgreenlee.github.io/bach-star/assets/mp3/bach_goldberg_aria.mp3")
 };
 
 var Sounds = {
